@@ -1,0 +1,104 @@
+@import url("http://fonts.cdnfonts.com/css/sf-compact-display");
+
+/* Time Styling */
+
+.time {
+  position: absolute;
+  left: 6.67%;
+  right: 81.6%;
+  top: 2.22%;
+  bottom: 95.32%;
+  font-family: "SF Compact Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.5442px;
+  line-height: 20px;
+  color: #000000;
+}
+
+/* Network Styling */
+
+.rectangle-1 {
+  position: absolute;
+  width: 3.01px;
+  right: 95.99px;
+  top: 3.66%;
+  bottom: 95.79%;
+  background: #000000;
+}
+
+.rectangle-2 {
+  position: absolute;
+  width: 3.01px;
+  right: 90.98px;
+  top: 3.38%;
+  bottom: 95.79%;
+  background: #000000;
+}
+
+.rectangle-3 {
+  position: absolute;
+  width: 3.01px;
+  right: 85.97px;
+  top: 3.11%;
+  bottom: 95.79%;
+  background: #000000;
+}
+
+.rectangle-4 {
+  position: absolute;
+  width: 3.01px;
+  right: 80.97px;
+  top: 2.83%;
+  bottom: 95.79%;
+  background: #000000;
+  opacity: 0.3;
+}
+
+/* Tower Styling */
+
+.tower {
+  position: absolute;
+  width: 18.03px;
+  right: 56.93px;
+  top: 2.46%;
+  bottom: 95.43%;
+  font-family: "SF Compact Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14.238px;
+  line-height: 17px;
+  color: #000000;
+}
+
+/* Battery Styling */
+
+.battery-1 {
+  position: absolute;
+  width: 23.73px;
+  right: 27.2px;
+  top: 2.83%;
+  bottom: 95.79%;
+  border: 0.949202px solid #000000;
+  box-sizing: border-box;
+  border-radius: 2.84761px;
+}
+.battery-2 {
+  position: absolute;
+  width: 20.03px;
+  right: 29.2px;
+  top: 3.04%;
+  bottom: 96.01%;
+  background: #303030;
+  border-radius: 0.949202px;
+}
+.battery-3 {
+  position: absolute;
+  width: 1.9px;
+  right: 24.35px;
+  top: 3.26%;
+  bottom: 96.22%;
+
+  background: #000000;
+  border-radius: 3.79681px;
+}

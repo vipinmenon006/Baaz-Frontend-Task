@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+@media screen and (max-width: 400px) {
+  .card-main {
+    position: absolute;
+    display: grid;
+    grid: auto-flow / 100px 1fr;
+    column-gap: 90px;
+    margin-top: 25px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  .card-container {
+    grid-row: auto / span 2;
+    margin-top: -50px;
+  }
+  .card-header {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    letter-spacing: -0.04em;
+    color: #171b24;
+  }
+
+  .card-image {
+    position: relative;
+    width: 122px;
+    height: 122px;
+    left: 16px;
+    top: 60px;
+  }
+  .card-details {
+    width: 154px;
+    height: 135px;
+    left: 24px;
+    top: 389px;
+    background: #f4f4f8;
+    border-radius: 12px;
+  }
+
+  .card-item {
+    position: relative;
+    width: 135px;
+    height: 16px;
+    left: 9px;
+    right: 10px;
+    top: 74px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: -0.03em;
+    color: #414044;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+    text-align: center;
+  }
+
+  .card-price {
+    position: relative;
+    width: 44px;
+    height: 16px;
+    left: 55px;
+    top: 74px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.05em;
+    color: #f7c390;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 8px 0px;
+    align-self: center;
+  }
+}

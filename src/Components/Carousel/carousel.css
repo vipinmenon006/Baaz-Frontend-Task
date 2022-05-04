@@ -1,0 +1,68 @@
+/* Carousel Styling */
+@media screen and (max-width: 400px) {
+  .slides {
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    overflow-x: scroll;
+  }
+
+  .slide_img {
+    margin-top: 60px;
+    margin-left: 24px;
+    height: 20vh;
+    min-width: 76vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-snap-align: center;
+    z-index: -1;
+  }
+
+  .img {
+    border-radius: 15px;
+  }
+
+  .radio {
+    display: none;
+  }
+
+  #nav_slide .dots {
+    left: 170px;
+    top: 20px;
+    width: 8px;
+    height: 8px;
+    margin: 0 4px;
+    position: relative;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: rgba(99, 99, 99, 0.6);
+    transition: 0.4s;
+  }
+
+  #nav_slide .dots:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: 0.25s;
+  }
+
+  #i1:checked ~ #one,
+  #i2:checked ~ #two,
+  #i3:checked ~ #three {
+    z-index: 9;
+    animation: scroll 1s ease-in-out;
+  }
+
+  #nav_slide .dots:hover {
+    cursor: pointer;
+    background-color: rgba(9, 7, 7, 0.9);
+    transition: 0.25s;
+  }
+
+  #i1:checked ~ #nav_slide #dot1,
+  #i2:checked ~ #nav_slide #dot2,
+  #i3:checked ~ #nav_slide #dot3,
+  #i4:checked ~ #nav_slide #dot4,
+  #i5:checked ~ #nav_slide #dot5 {
+    background-color: rgba(9, 8, 8, 0.9);
+  }
+}
